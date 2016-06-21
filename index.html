@@ -2,21 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Word Puzzle</title>
-    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link src="css/stylesheet.css" rel="stylesheet">
+    <title>Word Puzzle</title>
   </head>
 
   <body>
     <div class="container">
 
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <h1>Quote</h1>
+            <label for="quote"></label>
+            <input id="quote" class="form-control" type="text">
+            <br>
+            <br>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </form>
+        <p id="test">This is an intresting sentence.</p>
+        <span id="newString"></span>
+        <!-- <ul id="list">
 
 
+        </ul>
+   -->
+      </div>
 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
   </body>
 
 </html>
